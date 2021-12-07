@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+            My Work
+        </div>
+        <ul class="options">
+            <li><a class="option-link" href="./Aboutme.html"><div class="option-text">About me</div></a></li>
+            <li><a class="option-link" href="#"><div class="option-text">Gallery</div></a></li>
+            <li><a class="option-link" href="#"><div class="option-text">Design</div></a></li>
+            <li><a class="option-link" href="#"><div class="option-text">Websites</div></a></li>
+        </ul>
+        
+        <div class="options-mobile">
+            <button class="menu-button" type="button" id="mobile_menu_button">
+                <i class="fas fa-bars open"></i>
+                <i class="fas fa-bars close" ></i>
+            </button>
+        </div>
+        <ul class="mobile-menu" id="mobile_menu">
+            <li>
+                <a class="option-link" href="#">
+                    <div class="option-text">About me</div>
+                </a>
+            </li>
+            <li>
+                <a class="option-link" href="#">
+                    <div class="option-text">Gallery</div>
+                </a>
+            </li>
+            <li>
+                <a class="option-link" href="#">
+                    <div class="option-text">Design</div>
+                </a>
+            </li>
+            <li>
+                <a class="option-link" href="#">
+                    <div class="option-text">Websites</div>
+                </a>
+            </li>
+        </ul>
+
+    </header>
+    <body>
+    <nav>
+    <div class="img-box">
+        <img src="./assets/img/FaceApp_1593562355055-01.jpeg" width="350px" height="350px">
+    </div>
+    <div class="text-box">
+        <div class="text-me">This is the era of digital presence. Creating multimedia content is a basic tool
+             to survive today. My skills as a graphic designer and multimedia engineering student create an excellent
+              combination of tools to create content and create an excellent quality digital experience.</div>
+    
+        </div>
+
+         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="message">Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="Submit">
+</form><style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 38%;
+  padding: 2;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-top: 15px;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825rem;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border-color: white;
+  background-color: rgba(253, 207, 226, 0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color:rgb(2, 0, 0);
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+
+
+</style>
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted">@KeylaTorruco</span>
+    <p class="email">keylato96@gmail.com</p>
+  </div>
+</footer>
+
+</body>
+</html>
